@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    /* border: 1px solid red; */
+    display: flex;
+    max-width: 350px;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.box {
+    display: inline-block;
+    /* border: 1px solid blue; */
+    padding: 10px;
+    margin: 0px;
+    /* background-color: rgb(233, 0, 0); */
+}
+
+.paint {
+    background-color: cornflowerblue;
+}
